@@ -141,3 +141,47 @@ body {
 .card button:hover {
     background-color: #e64a19;
 }
+
+.about-us{
+    padding: 10px;
+}
+.about-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.about-image img {
+    width: 100%;
+    margin: 5px 5px;
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #00473e;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
