@@ -161,7 +161,7 @@ body {
 
 .about-image img {
     width: 100%;
-    margin: 5px 5px;
+    margin: 5px px;
     border-radius: 10px;
     height: 400px;
     object-fit: cover;
@@ -194,6 +194,7 @@ body {
     max-width: 1100px;
     margin: auto;
     justify-content: center;
+    padding: 20px;
 }
 
 .contact-form,
@@ -280,6 +281,14 @@ body {
 .contact-info ul li {
     margin-bottom: 10px;
     color: #bbbbbb;
+}
+
+
+#footer {
+    background-color: #f2f7f5;
+    padding: 10px 0px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
